@@ -154,7 +154,7 @@ WakeLabel2.grid(column = 7, row = 2)
 
 scheduleLabel = ttk.Label(window, text = "Schedule:")
 scheduleLabel.grid(column = 7, row = 4)
-scheduleOutput = ttk.
+#scheduleOutput = ttk.
 
 button = ttk.Button(window, text = "Create Schedule", command = clickSchedule)
 button.grid(column= 0, row = 10)

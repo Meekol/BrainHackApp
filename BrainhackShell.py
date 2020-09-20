@@ -35,7 +35,7 @@ def timeConvert(seconds):
 
 ############ MAIN STARTS HERE ################
 #debug prints
-print(str(addMinutes(90, 2300)).zfill(4))
+#print(str(addMinutes(90, 2300)).zfill(4))
 
 #basic variable initializations
 while True:
@@ -120,8 +120,8 @@ while True:
 
 
 #more debug prints
-print("Events list: ", events)
-print("Duration list: ", duration)
+#print("Events list: ", events)
+#print("Duration list: ", duration)
 
 #create organizedSchedule
 currentTime = wakeTime
@@ -162,14 +162,14 @@ while (int(addMinutes(sleepDurationMins, bedTime)) != int(wakeTime)):
 for event in organizedSchedule:
     print(str(event[1]).zfill(4), "to", str(event[2]).zfill(4), ":", event[0])
 
-    #print freetime/bedtime
-    print(str(newCurrentTime).zfill(4), "to", str(bedTime).zfill(4),": Freetime!")
-    print(str(bedTime).zfill(4), "to", str(wakeTime).zfill(4), ": Sleep!")
-    print("If you have a lot of free time and haven't exercised yet, make sure you get some!")
+#print freetime/bedtime
+print(str(newCurrentTime).zfill(4), "to", str(bedTime).zfill(4),": Freetime!")
+print(str(bedTime).zfill(4), "to", str(wakeTime).zfill(4), ": Sleep!")
+print("If you have a lot of free time and haven't exercised yet, make sure you get some!")
 
 
-window = tk.Tk()
-window.title("Brainhack Schedule App")
-window.minsize(600,400)
+#window = tk.Tk()
+#window.title("Brainhack Schedule App")
+#window.minsize(600,400)
 
-instructionLabel = ttk.Label(window, text = "Enter")
+#instructionLabel = ttk.Label(window, text = "Enter")
